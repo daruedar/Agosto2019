@@ -41,3 +41,43 @@ INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
 17,7597,348,4723,'Seco 20 millones');
 INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
 18,9952,044,4723,'Seco 20 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+19,0350,281,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+20,1036,152,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+21,1715,324,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+22,2104,249,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+23,2209,332,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+24,2515,180,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+25,2936,110,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+26,3424,340,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+27,3542,048,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+28,3628,212,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+29,3893,076,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+30,3920,298,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+31,4443,316,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+32,7004,340,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+33,7282,170,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+34,7821,054,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+35,8053,203,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+36,8223,153,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+37,8661,283,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+38,9471,052,4723,'Seco 10 millones');
