@@ -1,0 +1,15 @@
+CREATE TABLE Numeros(
+id int,
+numero int,
+serie int,
+sorteo int, 
+tipo varchar(20));
+
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+1,9040,245,4723,'Premio Mayor');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+2,0409,245,4723,'Mayor Invertido');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+3,5364,109,4723,'Seco 500 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+4,9360,103,4723,'Seco 500 millones');
