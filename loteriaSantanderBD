@@ -81,3 +81,23 @@ INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
 37,8661,283,4723,'Seco 10 millones');
 INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
 38,9471,052,4723,'Seco 10 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+39,0099,008,4723,'Seco 5 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+40,0197,300,4723,'Seco 5 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+41,2498,141,4723,'Seco 5 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+42,3175,063,4723,'Seco 5 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+43,4375,096,4723,'Seco 5 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+44,4841,025,4723,'Seco 5 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+45,6211,051,4723,'Seco 5 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+46,8923,336,4723,'Seco 5 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+47,9093,148,4723,'Seco 5 millones');
+INSERT INTO Numeros (id,numero,serie,sorteo,tipo) VALUES(
+48,9749,202,4723,'Seco 5 millones');
