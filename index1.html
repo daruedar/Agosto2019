@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Title of the document</title>
+  <script language='javascript'>
+   var q=-1.602e-19;//Carga del Electron
+   function Velocidad(x,y,z){this.i=x;this.j=y;this.k=z;}
+   function CampoMag(x,y,z){this.i=x;this.j=y;this.k=z;}
+   function Fuerza(x,y,z){this.i=x;this.j=y;this.k=z;}
+   var myVelocidad= new Velocidad(5e6,0,0);
+   var myCampo=new CampoMag(0,0,0.6);
+   var aux1=(myVelocidad.j*myCampo.k)-(myVelocidad.k*myCampo.j);
+   var aux2=(-1)*(myVelocidad.i*myCampo.k)-(myVelocidad.k*myCampo.i);
+   var aux3=(myVelocidad.i*myCampo.j)-(myVelocidad.j*myCampo.i);
+   var myFuerza= new Fuerza(aux1*q,aux2*q,aux3*q);
+   alert(myFuerza.j);
+   var salida='<h2>Determinar la fuerza que actua sobre un electron'+
+   'que se mueve con una velocidad: 5e6 i m/s dentro de un campo magnetico'+
+   'uniforme de 0.6 k T.<br>La fuerza que actua sobre el electron es:'+
+   '('+myFuerza.i+','+myFuerza.j+','+myFuerza.k+')';
+  </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
