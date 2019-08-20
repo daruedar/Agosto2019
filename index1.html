@@ -5,9 +5,9 @@
   <title>Title of the document</title>
   <script language='javascript'>
    var q=-1.602e-19;//Carga del Electron
-   function Velocidad(x,y,z){this.i=x;this.j=y;this.k=z;}
-   function CampoMag(x,y,z){this.i=x;this.j=y;this.k=z;}
-   function Fuerza(x,y,z){this.i=x;this.j=y;this.k=z;}
+   function Velocidad(x,y,z){this.i=x;this.j=y;this.k=z;}//Funcion tipo constructor
+   function CampoMag(x,y,z){this.i=x;this.j=y;this.k=z;}//Funcion tipo constructor
+   function Fuerza(x,y,z){this.i=x;this.j=y;this.k=z;}//Funcion tipo constructor
    var myVelocidad= new Velocidad(5e6,0,0);
    var myCampo=new CampoMag(0,0,0.6);
    var aux1=(myVelocidad.j*myCampo.k)-(myVelocidad.k*myCampo.j);
@@ -26,6 +26,19 @@
  '537k91e ELectromagnetismo con aplicaciones';
    var introduccionHistorica='Actualmente se conoce bastante bien la estructura de la materia y su estructura interna.\n'+
     'Fundamentos  fisicos de la ingenieria BPP'
+   
+   // Creando un arreglo de Objetos en JS para simular persistencia en BD ****************************************************************************
+   function Producto(nombre,unidad,precio){this.nombre=nombre;this.unidad=unidad;this.precio=precio;}//Funcion tipo constructor
+var producto1=new Producto('Galleta','unidad',200);
+var productos=Array();
+productos[0]= producto1;
+productos[1]= producto1;
+productos[2]= producto1;
+productos[3]= producto1;
+productos[4]= producto1;
+alert(productos[3].nombre);
+   // iNTENTE CREAR EL OBJETO DIRECTAMENTE SIN VARIABLE AUXILIAR  pero no compilo correctamente
+// ********************************************************************
   </script>
 
 </head>
