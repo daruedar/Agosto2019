@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Title of the document</title>
+  <script language='javascript'>
+   // Creando un arreglo de Objetos en JS para simular persistencia en BD ****************************************************************************
+	function Libro(nombre,referencia,ubicacion){this.nombre=nombre;this.referencia=referencia;this.ubicacion=ubicacion;}//Funcion tipo constructor
+	var libro1=new Libro('Algebra Superior','512 H176a2','Biblioteca Publica Piloto');
+	var libros=Array();
+	libros[0]= new Libro('Chocolate Corona pastilla','25 g',322);
+	libros[1]= new Libro('Lentejas','1 kg',3000);
+	libros[2]= new Libro('Bolsa de Pan Tajado','unidad',2400);
+	libros[3]= new Libro('Arroz Carolina','1 kg',2550);
+	var salida="";
+	for(var  i=0;i<libros.length;i++){
+	salida+=libros[i].nombre+"\t"+libros[i].unidad+"\t"+libros[i].precio+"\n";
+	}
+	alert(salida);
+	
+	//alert(productos[3].nombre+'    '+ productos[2].nombre);
+	// iNTENTE CREAR EL OBJETO DIRECTAMENTE SIN VARIABLE AUXILIAR  pero no compilo correctamente
+	// TEnia  razon, si es posible crear arreglos de objetos usando este stylo
+	// ********************************************************************
+  </script>
+
+</head>
+
+<body>
