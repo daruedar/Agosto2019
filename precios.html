@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="UTF-8">
-  <title>Title of the document</title>
-  <script language='javascript'>
-   // Creando un arreglo de Objetos en JS para simular persistencia en BD ****************************************************************************
-	function Producto(nombre,unidad,precio){this.nombre=nombre;this.unidad=unidad;this.precio=precio;}//Funcion tipo constructor
-	var producto1=new Producto('Galleta','unidad',200);
-	var productos=Array();
-	productos[0]= new Producto('Chocolate Corona pastilla','25 g',322);
-	productos[1]= new Producto('Lentejas','1 kg',3000);
-	productos[2]= new Producto('Bolsa de Pan Tajado','unidad',2400);
-	productos[3]= new Producto('Arroz Carolina','1 kg',2550);
-	var salida="";
-	for(var  i=0;i<productos.length;i++){
-	salida+=productos[i].nombre+"\t"+productos[i].unidad+"\t"+productos[i].precio+"\n";
-	}
-	alert(salida);
-	
-	//alert(productos[3].nombre+'    '+ productos[2].nombre);
-	// iNTENTE CREAR EL OBJETO DIRECTAMENTE SIN VARIABLE AUXILIAR  pero no compilo correctamente
-	// TEnia  razon, si es posible crear arreglos de objetos usando este stylo
-	// ********************************************************************
-  </script>
+	<head>
+		<meta charset="UTF-8">
+		<title>Precios Vigentes 2019</title>
+		<script language='javascript'>
+		  // Creando un arreglo de Objetos en JS para simular persistencia en BD ****************************************************************************
+			function Producto(nombre,unidad,precio){
+				this.nombre=nombre;
+				this.unidad=unidad;
+				this.precio=precio;
+			}//Fin del constructor
+			//var producto1=new Producto('Galleta','unidad',200);//instanciacion tradicional
+			var productos=Array();
+			productos[0]= new Producto('Chocolate Corona pastilla  ','  25 g  ',322);
+			productos[1]= new Producto('Lentejas  ','  1 kg  ',3000);
+			productos[2]= new Producto('Bolsa de Pan Tajado  ','  unidad  ',2400);
+			productos[3]= new Producto('Arroz Carolina  ','  1 kg  ',2550);
+			var salida="";
+			for(var  i=0;i<productos.length;i++){
+				salida+=productos[i].nombre+"\t"+
+					productos[i].unidad+"\t"+
+					productos[i].precio+"\n";
+			}
+			alert(salida);
+		</script>
 
-</head>
-
-<body>
-
-</body>
-
+	</head>
+	<body></body>
 </html>
