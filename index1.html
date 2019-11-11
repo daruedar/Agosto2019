@@ -29,3 +29,129 @@
 	</head>
 	<body></body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html><!--Interesante es que estoy realizando operaciones con vectores, -->
+	<head><!--No  solo  estan involucrados escalares-->
+		<meta charset="UTF-8">
+		<title>Teoria Electromagnetica</title>
+		<script language='javascript'>
+		/*
+			var q=-1.602e-19;//Carga del Electron
+			function Velocidad(x,y,z){this.i=x;this.j=y;this.k=z;}//Funcion tipo constructor
+			function CampoMag(x,y,z){this.i=x;this.j=y;this.k=z;}//Funcion tipo constructor
+			function Fuerza(x,y,z){this.i=x;this.j=y;this.k=z;}//Funcion tipo constructor
+			var myVelocidad= new Velocidad(5e6,0,0);
+			var myCampo=new CampoMag(0,0,0.6);
+			var aux1=(myVelocidad.j*myCampo.k)-(myVelocidad.k*myCampo.j);
+			var aux2=(-1)*(myVelocidad.i*myCampo.k)-(myVelocidad.k*myCampo.i);
+			var aux3=(myVelocidad.i*myCampo.j)-(myVelocidad.j*myCampo.i);
+			var myFuerza= new Fuerza(aux1*q,aux2*q,aux3*q);
+			
+			var salida='<h1>Ejemplo 4.1 del libro: Fundamentos Fisicos de la Ingenieria </h1><h2>Determinar la fuerza que actua sobre un electron '+
+				'que se mueve con una velocidad: 5e6 i m/s dentro de un campo magnetico'+
+				'uniforme de 0.6 k T.<br>La fuerza que actua sobre el electron es:'+
+			'('+myFuerza.i+','+myFuerza.j+','+myFuerza.k+')';
+			var Electromagnetismo_su_importancia='Cuando se  hace circular una corriente por un circuito, casi toda la energia se lleva de la bateria'+ 
+				'a la carga mediante campos electromagneticos externos  a los alambres.Se extiende un campo electrico entre los alambres, que esta'+ 
+				'rodeado por un campo magnetico, con las corrientes alternas algo de esa energia se irradia al espacio.'+
+				'A frecuencias sufucuentemente altas se puede irradiar casi tida y el  circuito actua  como una antena.'+
+				'537k91e ELectromagnetismo con aplicaciones';
+			document.write(salida);
+			
+			*/
+			
+			
+			function Hipotenusa(x,y){
+				this.cateto1=x;
+				this.cateto2=y;
+				var salida= Math.sqrt((this.cateto1*this.cateto1)+(this.cateto2*this.cateto2));
+				return salida;
+			}
+			
+			function Cateto(hipotenusa,cateto){
+				this.h=hipotenusa;
+				this.c=cateto;
+				var salida= Math.sqrt((this.h*this.h)-(this.c*this.c));
+				return salida;
+			}
+			function RadtoGrad(r){
+				var salida=r*57.296;
+				return salida;
+			}
+			var rta=Hipotenusa(5,3);
+			var rta2=Cateto(0.57,0.45);
+			var rta3=Math.asin(0.35/0.57);
+			var rta4=RadtoGrad(rta3);
+			var rta5=Math.asin(0.45/0.57);
+			var rta6=RadtoGrad(rta5);
+			var rta7=rta4+rta6;
+			var rta8=Math.asin(0.7/1.262);
+			var rta9=RadtoGrad(rta8);
+			var rta10=Hipotenusa(0.7,1.05);
+			var rta11=Math.asin(1.05/1.262);
+			var rta12=RadtoGrad(rta11);
+			var rta13=rta9+rta12;
+			var cadena="La  hipotenusa solicitada es"+rta;
+			var cadena2="El cateto solicitado es"+rta2;
+			var cadena3="El angulo1 solicitado es (radianes)"+rta3;
+			var cadena4="El angulo1 solicitado en grados es"+rta4;
+			var cadena5="El angulo2 solicitado es (radianes)"+rta5;
+			var cadena6="El angulo2 solicitado en grados es"+rta6;
+			var cadena7=cadena3+"<br>"+cadena4+"<br>"+cadena5+"<br>"+cadena6;
+			var cadena8="la suma de los dos angulos debe dar 90 grados "+rta7;
+			//.......................................
+			var cadena9="El angulob1 solicitado es (radianes)"+rta8;
+			var cadena10="El angulob1 solicitado en grados es"+rta9;
+			var cadena11=cadena9+"<br>"+cadena10;
+			var cadena12="La  hipotenusa solicitada es"+rta10;
+			var cadena13="El angulob2 solicitado es (radianes)"+rta11;
+			var cadena14="El angulob2 solicitado en grados es"+rta12;
+			var cadena15=cadena13+"<br>"+cadena14;
+			var cadena16="la suma de los dos angulos debe dar 90 grados "+rta13;
+			var salida="";
+			var salida2="";
+			for(var i=1;i<=32;i++){salida+=i+"\t"+(((i-1)*0.1)+"<br>");}
+			for(var i=1;i<=32;i++){
+			var aux=(i-1)*0.1;
+			
+			var altura=(Math.tan(0.35))*(aux);
+			var altura2=(Math.tan(0.98))*(aux);
+			var alturaup=altura+1.538;
+			var alturatotal=alturaup+altura2;
+			salida2+=i+"\t"+((aux)+"\t\t\t"+alturaup+"***********"+alturatotal+"<br>");
+			
+			}
+			document.write(salida2);
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</script>
+	</head>
+	<body></body>
+</html>
